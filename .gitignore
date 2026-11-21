@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Raw & processed data (document download steps instead of committing)
+data/raw/**/*
+data/processed/**/*
+!data/**/.gitkeep
+
+# Power BI temp / backup files (the .pbix itself IS committed)
+*.pbix.bak
+~$*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
